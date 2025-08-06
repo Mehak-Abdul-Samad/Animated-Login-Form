@@ -24,6 +24,3 @@ Built entirely with **HTML5** and **CSS3**, this form stays compact until the us
 - Change glow colors in `style.css` under `.card::before` and `.card::after`.
 - Adjust animation speed in the `@keyframes` rule.
 - Modify form size by editing the `.card` height values.
-
-## License
-This project is open-source and available under the **MIT License*
