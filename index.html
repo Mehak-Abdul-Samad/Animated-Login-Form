@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Animated Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <main class="page">
+    <section class="center">
+      <div class="card" tabindex="0"> <!-- tabindex so keyboard users can focus -->
+        <div class="card-inner">
+          <header class="card-head">
+            <div class="icon-left"><i class="fa-solid fa-arrow-right-to-bracket"></i></div>
+            <h1 class="title">SIGN IN <span class="heart">❤</span></h1>
+            <div class="spark"></div>
+          </header>
+
+          <!-- Hidden by default; appears on hover or focus-within -->
+          <form class="card-body" action="#" aria-label="Login form">
+            <div class="field">
+              <input type="text" id="user" name="user" placeholder="Enter Username" autocomplete="username" />
+            </div>
+            <div class="field">
+              <input type="password" id="pass" name="pass" placeholder="Enter Password" autocomplete="current-password" />
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="links">
+              <a href="#" class="muted">Forgot?</a>
+              <a href="#" class="accent">Register</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
